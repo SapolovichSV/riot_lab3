@@ -33,7 +33,7 @@
 #define SERIAL "/dev/pts/7"
 #define SPEED B9600
 #define DB "./db.db"
-#define HOUR 10
+#define HOUR 3600
 // debug
 #define HTTP_PORT 8080
 
