@@ -2,3 +2,8 @@
 .direnv
 *.out
 *.db
+server/emu
+server/main
+server/compile_commands.json
+gui/client
+gui/compile_commands.json
