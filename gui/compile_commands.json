@@ -1,0 +1,29 @@
+[
+  {
+    "file": "main.cpp",
+    "arguments": [
+      "clang++",
+      "-std=c++17",
+      "-fPIC",
+      "main.cpp",
+      "-o",
+      "client",
+      "-DQT_WIDGETS_LIB",
+      "-DQT_GUI_LIB",
+      "-DQT_NETWORK_LIB",
+      "-DQT_CORE_LIB",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include/QtWidgets",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include/QtGui",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include/QtNetwork",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include/QtCore",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/mkspecs/linux-g++",
+      "-I/nix/store/6qkfgq14vwp19v69ciwdrac5yjcrj5qn-qtbase-6.11.2/include"
+    ],
+    "directory": "/home/stasarch/Desktop/riot_lab3",
+    "output": "client"
+  }
+]

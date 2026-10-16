@@ -9,11 +9,18 @@
       devShells.${system}.default = pkgs.mkShell.override {
         stdenv = pkgs.clangStdenv;
       } {
-        packages = with pkgs; [
+        nativeBuildInputs = with pkgs; [
           clang-tools
           bear
+          sqlite
+          pkg-config
+          qt6.wrapQtAppsHook
+        ];
+        buildInputs = with pkgs; [
           socat
           sqlite
+          qt6.qtbase
+          qt6.qtwayland
         ];
       };
     };

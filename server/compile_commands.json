@@ -1,0 +1,13 @@
+[
+  {
+    "file": "main.c",
+    "arguments": [
+      "clang",
+      "main.c",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/stasarch/Desktop/riot_lab3",
+    "output": "main"
+  }
+]

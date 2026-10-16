@@ -3,9 +3,9 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-#define SERIAL "/dev/pts/15"
+#define SERIAL "/dev/pts/6"
 int main() {
-    int fd = open("/dev/pts/15", O_WRONLY);
+    int fd = open(SERIAL, O_WRONLY);
 
     if (fd == -1) {
         perror("open");
